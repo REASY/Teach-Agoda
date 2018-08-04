@@ -23,6 +23,8 @@ before_build:
 
     yarn webpack
 
+    cd ..
+
     dotnet restore
 build:
   project: src\teachatagoda.csproj
